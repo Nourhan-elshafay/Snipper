@@ -1,0 +1,252 @@
+*{
+      color: rgba(0, 0, 0, 0.6);
+      padding: 0%;
+      margin: 0%;
+      box-sizing: border-box;
+}
+/*------------------------------nav-----------------------*/
+.container{
+      background-color: #fff;
+      position: fixed;
+      z-index: 999;
+      width: 100%;
+}
+.container .nav{
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+}
+.container .nav .one{
+      width: 10%;
+      justify-content: right;
+      margin: 1.6% 0% 0% 0%;
+}
+.container .nav .one img {
+      width: 100%;
+}
+.container .nav .two{
+      width: 40%;
+      justify-content: right;
+      margin: 1% 10%;
+      padding-left: 10%;
+      font-size: 20px;
+}
+.container .nav .two ul{
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 30%;
+      width: 100%;
+}
+.container .nav .two ul li{
+      margin: auto;
+}
+.container .nav .two ul li a{
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.6);
+}
+.container .nav .two ul li button{
+      background-color: rgba(0, 0, 0, 0.907);
+      color: #8594a1bb;
+      border-style: none;
+      border-radius: 7%;
+      font-size: 15px;
+      padding: 10px;
+      transition: .3s;
+}
+.container .nav .two ul li button span{
+      color: #fff;
+      transition: .3s;
+}
+.container .nav .two ul li button:hover{
+      background-color: #fff;
+      transition: .3s;
+      border-style: inset;
+      border-width: 1px;
+}
+.container .nav .two ul li button:hover span{
+      color: #000;
+      transition: .3s;
+}
+.container .nav .three{
+      display: none;
+      text-decoration: none;
+      color: #000;
+      text-align: center;
+      font-size: 32px;
+}
+@media(max-width:800px){
+      .container .nav{
+            width: 100%;
+            justify-content: space-between;
+            padding: 1% 10%;
+      }
+      .container .nav .one{
+            width: 40%;
+      }
+      .container .nav .two{
+            display: none;
+      }
+      .container .nav .three{
+            display: contents;
+            width: 60%;
+      
+      }
+}
+/*------------------------------nav-----------------------*/
+/*------------------------------header-----------------------*/
+header{
+      background-image: url(/img/Background.png);
+      background-size:100% 100%;
+      width: 100%;
+      padding-top: 5%;
+}
+header .main .Z{    
+      text-align: center;
+      margin: 5%;
+}
+header .main .Z h2{
+      color: #000;
+      font-size: 55px;
+      font-weight:900px;
+}
+header .main .Z p{
+      margin: 2%;
+      font-size: 20px;
+}
+header .main button{
+      background-color: rgba(0, 0, 0, 0.907);
+      color: #8594a1bb;
+      border-style: none;
+      border-radius: 7%;
+      font-size: 15px;
+      padding: 10px;
+      transition: .3s;
+}
+header .main button span{
+      color: #fff;
+      transition: .3s;
+}
+header .main button:hover{
+      background-color: #fff;
+      transition: .3s;
+      border-style: inset;
+      border-width: 1px;
+}
+header .main button:hover span{
+      color: #000;
+      transition: .3s;
+}
+header .main img{
+      width: 80%;
+      margin: 0% 10%;
+}
+@media(max-width:800px){
+      header .main{
+            margin-top: 20%;
+      }
+      header .main .Z h2{
+            font-size: 45px;
+      }
+
+}
+/*------------------------------header-----------------------*/
+/*------------------------------section-----------------------*/
+section{
+      display: flex;
+      justify-content: space-around;
+      margin: 5%;
+}
+section .part1{
+      width: 45%;
+      padding: 7% 0%;
+}
+section .part1 h2{
+      color: #000;
+      font-size: 35px;
+      font-weight: 900px;
+}
+section .part1 p{
+      font-size: 20px;
+      margin: 5% 0%;
+}
+section .part1 button{
+      background-color: rgba(0, 0, 0, 0.907);
+      color: #8594a1bb;
+      border-style: none;
+      border-radius: 7%;
+      font-size: 15px;
+      padding: 10px;
+      transition: .3s;
+}
+section .part1 button span{
+      color: #fff;
+      transition: .3s;
+}
+section .part1 button:hover{
+      background-color: #fff;
+      transition: .3s;
+      border-style: inset;
+      border-width: 1px;
+}
+section .part1 button:hover span{
+      color: #000;
+      transition: .3s;
+}
+section .part2{
+      width: 45%;
+}
+section .part2 img{
+      width:100%;
+}
+@media(max-width:800px){
+      section{
+            flex-wrap: wrap-reverse;
+      }
+      section .part1{
+            width: 100%;
+      }
+      section .part2{
+            width: 100%;
+      }
+
+}
+/*------------------------------section-----------------------*/
+/*------------------------------footer-----------------------*/
+footer{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+}
+footer .A{
+      width: 20%;
+      margin: 2% 10%;
+}
+footer .A img{
+      width: 50%;
+      padding-top: 4%;
+}
+footer .B{
+      width: 40%;
+      margin: 2% 10%;
+      display: flex;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 200px;
+}
+footer .B p{
+      padding: 3%;
+}
+@media(max-width:800px){
+      footer{
+            flex-wrap: wrap;
+      }
+      footer .A{
+            width:100%;
+      }
+      footer .B{
+            width:100%;
+      }
+}
+/*------------------------------footer-----------------------*/
